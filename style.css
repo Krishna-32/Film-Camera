@@ -1,0 +1,50 @@
+@font-face {
+    font-family: myFont;
+    src: url(Font/rtco-flinton-four.otf);
+}
+
+*{
+    font-family: myFont;
+    font-size: large;
+}
+
+.header .image{
+    
+    display: flex;
+    justify-content: right;
+    padding-right: 25rem;
+    padding-left: 25rem;
+    float: right;
+    
+    
+}
+
+.nav{
+    border: 1px solid black;
+    border-style: hidden;
+    padding: 10px;
+    background-color: blanchedalmond;
+    position: relative;
+    width: 200px;
+    height: 886px;
+}
+
+
+.footer{
+    color: black;
+    position: relative;
+    top: 200px;
+    right: 25px;
+    font-size: small;
+}
+
+.container .box{
+    color: black;
+    text-align: center;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    left: 350px;
+    bottom: 615px;       
+}

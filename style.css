@@ -32,7 +32,7 @@
 
 .footer{
     color: black;
-    position: relative;
+    /* position: relative; */
     top: 200px;
     right: 25px;
     font-size: small;
@@ -45,6 +45,15 @@
     height: auto;
     padding: 10px;
     position: relative;
-    left: 350px;
+    left: 430px;
     bottom: 615px;       
+}
+
+body{
+    background-image: url('Images/31b75f58864f6f99ce63bfde9267dfc0.jpg');
+    height: 100vh;
+    background-repeat: repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }

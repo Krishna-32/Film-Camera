@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="film-camera.css">
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>    <link rel="stylesheet" href="film-camera.css">
     <link rel="icon" href="Images/pngtree-video-camera-icon-cinema-camera-icon-film-camera-movie-camera-icon-png-image_1956865.jpg" type="images/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback</title>
+    <title>Film-Camera</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -24,10 +25,86 @@
                     <li><a href="Feedback.html" class = "no-underline text-2xl">Feedback</a></li>
                 </ul>
             </nav>
+
             <div class="footer">
                 &nbsp;© Krishna Gupta 2023<br>&nbsp;All rights reserved.
             </div>
+
+            <form>
+                <button
+            class="button middle none center w-full rounded-lg bg-pink-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            data-ripple-light="true" type="submit" formaction="Order.html">
+            
+            Buy Now
+            </button>
+            <div class="w-full pt-5 px-4 mb-8 mx-auto ">
+            </div>
+            </form>
+            
+
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                  <li id="carousel__slide1"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper">
+                      <a href="#carousel__slide4"
+                         class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide2"
+                         class="carousel__next">Go to next slide</a>
+                    </div>
+                  </li>
+                  <li id="carousel__slide2"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide1"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide3"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide3"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide2"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide4"
+                       class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide4"
+                      tabindex="0"
+                      class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide3"
+                       class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1"
+                       class="carousel__next">Go to first slide</a>
+                  </li>
+                </ol>
+                <aside class="carousel__navigation">
+                  <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1"
+                         class="carousel__navigation-button">Go to slide 1</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2"
+                         class="carousel__navigation-button">Go to slide 2</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3"
+                         class="carousel__navigation-button">Go to slide 3</a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4"
+                         class="carousel__navigation-button">Go to slide 4</a>
+                    </li>
+                  </ol>
+                </aside>
+              </section>
         </div>
     </div>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
 </body>
 </html>

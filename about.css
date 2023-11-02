@@ -8,14 +8,15 @@
     font-size: large;
 }
 
-.container{
+body{
     background-image: url('Images/532935f03007bff37cf6c232827ccb2c.jpg');
     height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
+
 
 .container .box{
     color: whitesmoke;

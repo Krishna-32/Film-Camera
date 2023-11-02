@@ -40,16 +40,23 @@
 
 .buy{
     position: relative;
-    left: 480px;
-    bottom: 400px;
+    left: 400px;
+    bottom: 375px;
     filter: drop-shadow(1px 1px 5px black);
 }
 
-.container{
+body{
     background-image: url('Images/c9e9a72f4123a90d87360420c23f846b.jpg');
     height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.reviews{
+    width: 700px;
+    position: relative;
+    left: 850px;
+    bottom: 1100px;
 }

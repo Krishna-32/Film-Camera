@@ -32,7 +32,7 @@
 
 .footer{
     color: black;
-    /* position: relative; */
+    position: relative; 
     top: 200px;
     right: 25px;
     font-size: small;
